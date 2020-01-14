@@ -15,12 +15,12 @@
 					<Add option="-g" />
 					<Add option="-std=c++17" />
 					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/include" />
-					<Add directory="../Dependencies/irrKlang/1.6.0/include" />
+					<Add directory="irrKlang/1.6.0/include" />
 					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32" />
-					<Add library="../Dependencies/irrKlang/1.6.0/lib/Win32-gcc/libirrKlang.a" />
+					<Add library="irrKlang/1.6.0/lib/Win32-gcc/libirrKlang.a" />
 					<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/libmsimg32.a" />
 					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/lib" />
 					<Add directory="../Dependencies/irrKlang/1.6.0/lib/Win32-gcc" />

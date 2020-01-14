@@ -2161,3 +2161,129 @@
 	"ik_IRefCounted.h"
 	"ik_ISoundSource.h"
 
+1579024639 source:c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\app\functions.cpp
+	"Functions.h"
+
+1579024639 c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\app\functions.h
+	"../FileDefines.h"
+	<iostream>
+	<sstream>
+	<math.h>
+	<windows.h>
+	<fstream>
+	<winsock.h>
+	<winsock2.h>
+	<conio.h>
+
+1579024639 c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\filedefines.h
+
+1579024639 source:c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\app\game.cpp
+	"Game.h"
+
+1579024639 c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\app\game.h
+	<iostream>
+	<thread>
+	<chrono>
+	<unistd.h>
+	<windows.h>
+	<conio.h>
+	<functional>
+	"../FileDefines.h"
+	"../Graphics/winbgim/winbgim.h"
+
+1579024639 source:c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\audio\audio.cpp
+	"Audio.h"
+
+1579024639 c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\audio\audio.h
+	<irrKlang.h>
+	<string>
+	<iostream>
+	"../FileDefines.h"
+
+1579024639 source:c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\graphics\png32\libpng\png.c
+	"png.h"
+
+1579024639 c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\graphics\png32\libpng\png.h
+	"zlib/zlib.h"
+	"pngconf.h"
+	<crtdbg.h>
+
+1579024639 c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngconf.h
+	"pngusr.h"
+	<windows.h>
+	<stdio.h>
+	<stdio.h>
+	<sys/types.h>
+	<setjmp.h>
+	<strings.h>
+	<string.h>
+	<stdlib.h>
+	<fp.h>
+	<math.h>
+	<m68881.h>
+	<mem.h>
+	<alloc.h>
+	<malloc.h>
+	<time.h>
+	<dos.h>
+
+1579024639 source:c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngerror.c
+	"png.h"
+
+1579024639 source:c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\graphics\png32\libpng\pnggccrd.c
+	"png.h"
+
+1579024639 source:c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngget.c
+	"png.h"
+
+1579024639 source:c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngmem.c
+	"png.h"
+
+1579024639 source:c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngpread.c
+	"png.h"
+
+1579024639 source:c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngread.c
+	"png.h"
+
+1579024639 source:c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngrio.c
+	"png.h"
+
+1579024639 source:c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngrtran.c
+	"png.h"
+
+1579024639 source:c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngrutil.c
+	"png.h"
+
+1579024639 source:c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngset.c
+	"png.h"
+
+1579024639 source:c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngtrans.c
+	"png.h"
+
+1579024639 source:c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngvcrd.c
+	"png.h"
+
+1579024639 source:c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngwio.c
+	"png.h"
+
+1579024639 source:c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngwrite.c
+	"png.h"
+
+1579024639 source:c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngwtran.c
+	"png.h"
+
+1579024639 source:c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngwutil.c
+	"png.h"
+
+1579024639 source:c:\users\samue\downloads\bgi-2d-game-engine-master(1)\bgi-2d-game-engine-master\main.cpp
+	"Core/App/Game.h"
+	"Core/Audio/Audio.h"
+	"Core/Graphics/winbgim/winbgim.h"
+	<irrKlang.h>
+	<iostream>
+	<windows.h>
+	<conio.h>
+	"Core/Graphics/winbgim/winbgitypes.h"
+	"Core/Graphics/winbgim/graphics.h"
+	"Core/Graphics/png32/png32_helper.h"
+

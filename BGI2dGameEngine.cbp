@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="BGI2dGameEngine" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/BGI2dGameEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-std=c++17" />
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/include" />
+					<Add directory="../Dependencies/irrKlang/1.6.0/include" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32" />
+					<Add library="../Dependencies/irrKlang/1.6.0/lib/Win32-gcc/libirrKlang.a" />
+					<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/libmsimg32.a" />
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/lib" />
+					<Add directory="../Dependencies/irrKlang/1.6.0/lib/Win32-gcc" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/BGI2dGameEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="../Dependencies/irrKlang/1.6.0/lib/Win32-gcc/libirrKlang.a" />
+					<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/libgdi32.a" />
+					<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/libgdiplus.a" />
+					<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/libpenwin32.a" />
+					<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/libwinmm.a" />
+					<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/libwinpthread.dll.a" />
+					<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/libcomdlg32.a" />
+					<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/liboleaut32.a" />
+					<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/libole32.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Core/App/Constants.h" />
+		<Unit filename="Core/App/Functions.cpp" />
+		<Unit filename="Core/App/Functions.h" />
+		<Unit filename="Core/App/Game.cpp" />
+		<Unit filename="Core/App/Game.h" />
+		<Unit filename="Core/App/Globals.h" />
+		<Unit filename="Core/App/KeyboardMacros.h" />
+		<Unit filename="Core/Audio/Audio.cpp" />
+		<Unit filename="Core/Audio/Audio.h" />
+		<Unit filename="Core/FileDefines.h" />
+		<Unit filename="Core/Graphics/Render.cpp" />
+		<Unit filename="Core/Graphics/Render.h" />
+		<Unit filename="Core/Graphics/png32/libpng/png.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/png.h" />
+		<Unit filename="Core/Graphics/png32/libpng/pngconf.h" />
+		<Unit filename="Core/Graphics/png32/libpng/pngerror.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/pnggccrd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/pngget.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/pngmem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/pngpread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/pngread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/pngrio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/pngrtran.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/pngrutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/pngset.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/pngtrans.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/pngvcrd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/pngwio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/pngwrite.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/pngwtran.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/pngwutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/zlib/adler32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/zlib/compress.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/zlib/crc32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/zlib/crc32.h" />
+		<Unit filename="Core/Graphics/png32/libpng/zlib/deflate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/zlib/deflate.h" />
+		<Unit filename="Core/Graphics/png32/libpng/zlib/gzclose.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/zlib/gzguts.h" />
+		<Unit filename="Core/Graphics/png32/libpng/zlib/gzlib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/zlib/gzread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/zlib/gzwrite.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/zlib/infback.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/zlib/inffast.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/zlib/inffast.h" />
+		<Unit filename="Core/Graphics/png32/libpng/zlib/inffixed.h" />
+		<Unit filename="Core/Graphics/png32/libpng/zlib/inflate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/zlib/inflate.h" />
+		<Unit filename="Core/Graphics/png32/libpng/zlib/inftrees.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/zlib/inftrees.h" />
+		<Unit filename="Core/Graphics/png32/libpng/zlib/trees.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/zlib/trees.h" />
+		<Unit filename="Core/Graphics/png32/libpng/zlib/uncompr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/zlib/zconf.h" />
+		<Unit filename="Core/Graphics/png32/libpng/zlib/zlib.h" />
+		<Unit filename="Core/Graphics/png32/libpng/zlib/zutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/libpng/zlib/zutil.h" />
+		<Unit filename="Core/Graphics/png32/png32_helper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core/Graphics/png32/png32_helper.h" />
+		<Unit filename="Core/Graphics/winbgim/bgiout.cxx" />
+		<Unit filename="Core/Graphics/winbgim/dibapi.h" />
+		<Unit filename="Core/Graphics/winbgim/dibutil.cxx" />
+		<Unit filename="Core/Graphics/winbgim/dibutil.h" />
+		<Unit filename="Core/Graphics/winbgim/drawing.cxx" />
+		<Unit filename="Core/Graphics/winbgim/file.cxx" />
+		<Unit filename="Core/Graphics/winbgim/graphics.h" />
+		<Unit filename="Core/Graphics/winbgim/misc.cxx" />
+		<Unit filename="Core/Graphics/winbgim/mouse.cxx" />
+		<Unit filename="Core/Graphics/winbgim/palette.cxx" />
+		<Unit filename="Core/Graphics/winbgim/text.cxx" />
+		<Unit filename="Core/Graphics/winbgim/winbgi.cxx" />
+		<Unit filename="Core/Graphics/winbgim/winbgim.h" />
+		<Unit filename="Core/Graphics/winbgim/winbgitypes.h" />
+		<Unit filename="Core/Graphics/winbgim/winthread.cxx" />
+		<Unit filename="Core/Math/Sort.cpp" />
+		<Unit filename="Core/Math/Sort.h" />
+		<Unit filename="Core/Objects/Object.cpp" />
+		<Unit filename="Core/Objects/Object.h" />
+		<Unit filename="Core/Scene/Scene.cpp" />
+		<Unit filename="Core/Scene/Scene.h" />
+		<Unit filename="Core/Texture/Sprite.cpp" />
+		<Unit filename="Core/Texture/Sprite.h" />
+		<Unit filename="Core/Texture/Texture.cpp" />
+		<Unit filename="Core/Texture/Texture.h" />
+		<Unit filename="Core/Window/DebugWindow.cpp" />
+		<Unit filename="Core/Window/DebugWindow.h" />
+		<Unit filename="GameSettings.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

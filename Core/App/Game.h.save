@@ -1,0 +1,82 @@
+#ifndef GAME_H
+#define GAME_H
+
+#include <iostream>
+#include <thread>
+#include <chrono>
+#include <unistd.h>
+#include <windows.h>
+#include <conio.h>
+
+#include "KeyboardMacros.h"
+#include "Globals.h"
+#include "Constants.h"
+#include "Functions.h"
+#include "../Window/DebugWindow.h"
+#include "../Graphics/winbgim/graphics.h"
+#include "../Window/DebugWindow.h"
+#include "../../GameSettings.h"
+#include "../Texture/Texture.h"
+#include "../Texture/Sprite.h"
+#include "../Objects/Object.h"
+#include "../Scene/Scene.h"
+
+using namespace std ;
+
+enum mouse_precision_levels
+{
+    fast,
+    precise
+};
+
+static Scene* game_current_scene = NULL ;
+static const signed short game_mchk_level = fast ; // fast or precise
+static const signed short game_transparent_color = 15 ; // white
+static int32_t game_frame_count = 0 ;
+static bool caps_differ = false ;
+static char* temp_title = (char*) "test" ; // temporary
+static int event_thread_slp_time = 10 ;
+static int display_thread_slp_time = 50 ;//(int) 1000 / game_max_fps ;
+static int game_window = 0 ;
+static unsigned long fcount = 0 ;
+static int game_first_buffer ;
+static int game_second_buffer ;
+static int game_current_buffer ;
+static double game_fps ;
+static bool stop_event_thread ;
+static bool stop_display_thread ;
+
+void InitGame() ;
+void StartGame() ;
+void EndGame() ;
+void PauseGame(gtime time) ;
+void PauseEventThread(gtime time) ;
+void PauseDisplayThread(gtime time) ;
+void SetCurrentScene(Scene &scene, bool reset) ; // reset is used to tell the engine whether it has to reset the objects or not
+void IncrementObjectX(Object &obj, int increment_amt) ;
+void IncrementObjectY(Object &obj, int increment_amt) ;
+void SetObjectXY(Object &obj, int x, int y) ;
+void TakeScreenShot(string filename) ;
+
+// internal use only
+
+void _UpdateGameWindow() ;
+int _RecieveKeyboardInput() ;
+void _GameEventThread() ;
+void _CalculateFPS(double time_fps) ;
+void _ReadSceneTex(Instance &s, bool update) ;
+int __GetNextFrame(Texture *t) ;
+int _GetNextFrame(Texture &t) ;
+int _GetRequiredBuffer() ;
+bool _ObjectClicked(Instance &s, int mx, int my) ;
+void _GameDisplayThread() ;
+void _GameEventThread() ;
+void _UpdateFrameCount(Instance &s_) ;
+void _UpdateObjectMembers() ;
+void _RestoreObjectMembers() ;
+bool _Collision(Instance &instance_1, Instance &instance_2)
+
+// for testing purposes only
+void print() ;
+
+#endif // GAME_H

@@ -1,0 +1,50 @@
+#include "Core/App/Game.h"
+
+using namespace std ;
+
+int main()
+{
+    // Declaring some variables
+
+    Texture &tex1 = *(new Texture) ;
+    Texture &tex2 = *(new Texture) ;
+    Object &obj1 = *(new Object) ;
+    Object &obj2 = *(new Object) ;
+    Sprite &spr1 = *(new Sprite) ;
+    Sprite &spr2 = *(new Sprite) ;
+    Scene &sce1 = *(new Scene) ;
+    Scene &sce2 = *(new Scene) ;
+
+    InitGame() ;
+
+    // Initializing some stuff
+
+    tex1.InitTexture({"Assets/Sprites/frame.bmp","Assets/Sprites/frame2.bmp"}) ;
+    tex2.InitTexture({"Assets/Sprites/frame3.bmp","Assets/Sprites/frame4.bmp"}) ;
+    spr1.InitSprite(tex1,30) ;
+    spr2.InitSprite(tex2,30) ;
+    obj1.SetObjectVisible(true) ;
+    obj1.AddObjectSprite(spr1) ;
+    obj2.SetObjectVisible(true) ;
+    obj2.AddObjectSprite(spr2) ;
+
+    // Placing Objects in the scene
+
+    sce1.PlaceObject(obj1,108,50) ;
+    sce1.PlaceObject(obj2,200,100) ;
+
+    // Initializing Events
+
+    obj1.InitKeyboardEvent(KB_RIGHT,[&obj1](){IncrementObjectX(obj1,3);}) ;
+    obj1.InitKeyboardEvent(KB_LEFT,[&obj1](){IncrementObjectX(obj1,-3);}) ;
+    obj1.InitKeyboardEvent(KB_DOWN,[&obj1](){IncrementObjectY(obj1,3);}) ;
+    obj1.InitKeyboardEvent(KB_UP,[&obj1](){IncrementObjectY(obj1,-3);}) ;
+    obj1.InitKeyboardEvent(KB_K,[&sce2](){SetCurrentScene(sce2,1);}) ;
+    obj1.InitKeyboardEvent(KB_P,[](){TakeScreenShot("stid.BMP") ;}) ;
+
+    // Setting up
+
+    SetCurrentScene(sce1,1) ;
+    StartGame() ;
+    getch() ;
+}

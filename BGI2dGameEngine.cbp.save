@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="BGI2dGameEngine" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/BGI2dGameEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++14" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/BGI2dGameEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Core/App/Constants.h" />
+		<Unit filename="Core/App/Functions.cpp" />
+		<Unit filename="Core/App/Functions.h" />
+		<Unit filename="Core/App/Game.cpp" />
+		<Unit filename="Core/App/Game.h" />
+		<Unit filename="Core/App/Globals.h" />
+		<Unit filename="Core/App/KeyboardMacros.h" />
+		<Unit filename="Core/Graphics/winbgim/bgiout.cxx" />
+		<Unit filename="Core/Graphics/winbgim/dibapi.h" />
+		<Unit filename="Core/Graphics/winbgim/dibutil.cxx" />
+		<Unit filename="Core/Graphics/winbgim/dibutil.h" />
+		<Unit filename="Core/Graphics/winbgim/drawing.cxx" />
+		<Unit filename="Core/Graphics/winbgim/file.cxx" />
+		<Unit filename="Core/Graphics/winbgim/graphics.h" />
+		<Unit filename="Core/Graphics/winbgim/misc.cxx" />
+		<Unit filename="Core/Graphics/winbgim/mouse.cxx" />
+		<Unit filename="Core/Graphics/winbgim/palette.cxx" />
+		<Unit filename="Core/Graphics/winbgim/text.cxx" />
+		<Unit filename="Core/Graphics/winbgim/winbgi.cxx" />
+		<Unit filename="Core/Graphics/winbgim/winbgim.h" />
+		<Unit filename="Core/Graphics/winbgim/winbgitypes.h" />
+		<Unit filename="Core/Graphics/winbgim/winthread.cxx" />
+		<Unit filename="Core/Objects/Object.cpp" />
+		<Unit filename="Core/Objects/Object.h" />
+		<Unit filename="Core/Scene/Scene.cpp" />
+		<Unit filename="Core/Scene/Scene.h" />
+		<Unit filename="Core/Texture/Sprite.cpp" />
+		<Unit filename="Core/Texture/Sprite.h" />
+		<Unit filename="Core/Texture/Texture.cpp" />
+		<Unit filename="Core/Texture/Texture.h" />
+		<Unit filename="Core/Window/DebugWindow.cpp" />
+		<Unit filename="Core/Window/DebugWindow.h" />
+		<Unit filename="GameSettings.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1938,3 +1938,226 @@
 	<limits.h>
 	<sstream>
 
+1579023830 source:c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\app\functions.cpp
+	"Functions.h"
+
+1579023830 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\app\functions.h
+	"../FileDefines.h"
+	<iostream>
+	<sstream>
+	<math.h>
+	<windows.h>
+	<fstream>
+	<winsock.h>
+	<winsock2.h>
+	<conio.h>
+
+1579023830 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\filedefines.h
+
+1579023830 source:c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\app\game.cpp
+	"Game.h"
+
+1579023830 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\app\game.h
+	<iostream>
+	<thread>
+	<chrono>
+	<unistd.h>
+	<windows.h>
+	<conio.h>
+	<functional>
+	"../FileDefines.h"
+	"../Graphics/winbgim/winbgim.h"
+
+1579023830 source:c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\audio\audio.cpp
+	"Audio.h"
+
+1579023830 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\audio\audio.h
+	<irrKlang.h>
+	<string>
+	<iostream>
+	"../FileDefines.h"
+
+1579023830 source:c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\graphics\png32\libpng\png.c
+	"png.h"
+
+1579023830 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\graphics\png32\libpng\png.h
+	"zlib/zlib.h"
+	"pngconf.h"
+	<crtdbg.h>
+
+1579023830 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngconf.h
+	"pngusr.h"
+	<windows.h>
+	<stdio.h>
+	<stdio.h>
+	<sys/types.h>
+	<setjmp.h>
+	<strings.h>
+	<string.h>
+	<stdlib.h>
+	<fp.h>
+	<math.h>
+	<m68881.h>
+	<mem.h>
+	<alloc.h>
+	<malloc.h>
+	<time.h>
+	<dos.h>
+
+1579023830 source:c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngerror.c
+	"png.h"
+
+1579023830 source:c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\graphics\png32\libpng\pnggccrd.c
+	"png.h"
+
+1579023830 source:c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngget.c
+	"png.h"
+
+1579023830 source:c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngmem.c
+	"png.h"
+
+1579023830 source:c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngpread.c
+	"png.h"
+
+1579023830 source:c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngread.c
+	"png.h"
+
+1579023830 source:c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngrio.c
+	"png.h"
+
+1579023830 source:c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngrtran.c
+	"png.h"
+
+1579023830 source:c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngrutil.c
+	"png.h"
+
+1579023830 source:c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngset.c
+	"png.h"
+
+1579023830 source:c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngtrans.c
+	"png.h"
+
+1579023830 source:c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngvcrd.c
+	"png.h"
+
+1579023830 source:c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngwio.c
+	"png.h"
+
+1579023830 source:c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngwrite.c
+	"png.h"
+
+1579023830 source:c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngwtran.c
+	"png.h"
+
+1579023830 source:c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\core\graphics\png32\libpng\pngwutil.c
+	"png.h"
+
+1579023830 source:c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\main.cpp
+	"Core/App/Game.h"
+	"Core/Audio/Audio.h"
+	"Core/Graphics/winbgim/winbgim.h"
+	<irrKlang.h>
+	<iostream>
+	<windows.h>
+	<conio.h>
+	"Core/Graphics/winbgim/winbgitypes.h"
+	"Core/Graphics/winbgim/graphics.h"
+	"Core/Graphics/png32/png32_helper.h"
+
+1517283246 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\\irrklang\1.6.0\include\irrklang.h
+	"ik_irrKlangTypes.h"
+	"ik_vec3d.h"
+	"ik_IRefCounted.h"
+	"ik_IVirtualRefCounted.h"
+	"ik_ESoundOutputDrivers.h"
+	"ik_ESoundEngineOptions.h"
+	"ik_EStreamModes.h"
+	"ik_SAudioStreamFormat.h"
+	"ik_ISoundEngine.h"
+	"ik_ISoundSource.h"
+	"ik_ISound.h"
+	"ik_IAudioStream.h"
+	"ik_IAudioStreamLoader.h"
+	"ik_ISoundEffectControl.h"
+	"ik_ISoundStopEventReceiver.h"
+	"ik_IFileFactory.h"
+	"ik_IFileReader.h"
+	"ik_ISoundDeviceList.h"
+	"ik_IAudioRecorder.h"
+	"ik_ISoundMixedOutputReceiver.h"
+
+1517203808 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\\irrklang\1.6.0\include\ik_irrklangtypes.h
+	<wchar.h>
+
+1517203808 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\\irrklang\1.6.0\include\ik_vec3d.h
+	<math.h>
+	"ik_irrKlangTypes.h"
+
+1517203808 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\\irrklang\1.6.0\include\ik_irefcounted.h
+	"ik_irrKlangTypes.h"
+
+1517203808 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\\irrklang\1.6.0\include\ik_ivirtualrefcounted.h
+	"ik_irrKlangTypes.h"
+
+1517203808 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\\irrklang\1.6.0\include\ik_esoundoutputdrivers.h
+
+1517203808 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\\irrklang\1.6.0\include\ik_esoundengineoptions.h
+
+1517203808 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\\irrklang\1.6.0\include\ik_estreammodes.h
+
+1517203808 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\\irrklang\1.6.0\include\ik_saudiostreamformat.h
+	"ik_IRefCounted.h"
+
+1517203808 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\\irrklang\1.6.0\include\ik_isoundengine.h
+	"ik_IRefCounted.h"
+	"ik_vec3d.h"
+	"ik_ISoundSource.h"
+	"ik_ISound.h"
+	"ik_EStreamModes.h"
+	"ik_IFileFactory.h"
+	"ik_ISoundMixedOutputReceiver.h"
+
+1517203832 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\\irrklang\1.6.0\include\ik_isoundsource.h
+	"ik_IVirtualRefCounted.h"
+	"ik_vec3d.h"
+	"ik_EStreamModes.h"
+	"ik_SAudioStreamFormat.h"
+
+1517203808 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\\irrklang\1.6.0\include\ik_isound.h
+	"ik_IVirtualRefCounted.h"
+	"ik_ISoundEffectControl.h"
+	"ik_vec3d.h"
+
+1517203808 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\\irrklang\1.6.0\include\ik_isoundeffectcontrol.h
+	"ik_IVirtualRefCounted.h"
+	"ik_vec3d.h"
+
+1517203808 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\\irrklang\1.6.0\include\ik_ifilefactory.h
+	"ik_IRefCounted.h"
+
+1517203808 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\\irrklang\1.6.0\include\ik_isoundmixedoutputreceiver.h
+	"ik_IRefCounted.h"
+	"ik_SAudioStreamFormat.h"
+
+1517203808 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\\irrklang\1.6.0\include\ik_iaudiostream.h
+	"ik_IRefCounted.h"
+	"ik_SAudioStreamFormat.h"
+
+1517203808 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\\irrklang\1.6.0\include\ik_iaudiostreamloader.h
+	"ik_IRefCounted.h"
+	"ik_IFileReader.h"
+
+1517203808 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\\irrklang\1.6.0\include\ik_ifilereader.h
+	"ik_IRefCounted.h"
+
+1517203808 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\\irrklang\1.6.0\include\ik_isoundstopeventreceiver.h
+	"ik_IRefCounted.h"
+	"ik_SAudioStreamFormat.h"
+
+1517203808 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\\irrklang\1.6.0\include\ik_isounddevicelist.h
+	"ik_IRefCounted.h"
+
+1517203824 c:\users\samue\downloads\bgi-2d-game-engine-master\bgi-2d-game-engine-master\\irrklang\1.6.0\include\ik_iaudiorecorder.h
+	"ik_IRefCounted.h"
+	"ik_ISoundSource.h"
+
